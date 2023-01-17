@@ -5,10 +5,6 @@ public class Frequency {
         int[] numbers = new int[100];
         int[] frequency = new int[10];
         Scanner input = new Scanner(System.in);
-<<<<<<< HEAD
-=======
-
->>>>>>> origin/working
         System.out.println("Enter 100 integers between 0 and 9: ");
         for (int i = 0; i < 100; i++) {
             numbers[i] = input.nextInt();
